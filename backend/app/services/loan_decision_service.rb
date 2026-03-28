@@ -1,10 +1,13 @@
 class LoanDecisionService
-  attr_reader :personal_code, :loan_amount, :loan_period
 
   def initialize(personal_code:, loan_amount:, loan_period:)
     @personal_code = personal_code
     @loan_amount = loan_amount
     @loan_period = loan_period
+  end
+
+  def call
+  find_best_offer
   end
 
   # debt check
