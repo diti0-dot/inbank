@@ -1,6 +1,4 @@
-Here’s a shorter, clean version:
 
----
 
 # Loan Decision Engine
 
