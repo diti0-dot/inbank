@@ -10,7 +10,7 @@ This project is a simple loan decision engine that evaluates a user’s eligibil
 
 ## Features
 
-* Supports 5 user scenarios (debt + 3 segments + invalid)
+* Supports 4 user scenarios (debt + 3 segments)
 * Adjusts loan amount and period to find the best possible offer
 * Returns maximum approved sum regardless of requested amount
 
