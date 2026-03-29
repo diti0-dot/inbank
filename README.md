@@ -53,7 +53,8 @@ Response:
 ```json id="o4xtmx"
 {
   "decision": "positive",
-  "approved_amount": 6000
+  "approved_amount": 2000,
+  "loan_period": 24
 }
 ```
 
