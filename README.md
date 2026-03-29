@@ -6,6 +6,18 @@
 
 This project is a simple loan decision engine that evaluates a user’s eligibility based on personal code, loan amount, and loan period. It returns a decision (approved/rejected) and the maximum approved loan amount.
 
+
+## Decision Logic Highlights
+
+- ![Maximize](https://img.shields.io/badge/Maximize%20Approved%20Amount-green)
+  If the requested loan is approvable, the system searches for the maximum loan amount that can be approved and returns that value.
+
+- ![Fallback](https://img.shields.io/badge/Fallback%20to%20Lower%20Amount-yellow)
+  If the requested amount is not approvable, the system searches for the highest possible lower amount that can be approved within the constraints.
+
+- ![Adjust](https://img.shields.io/badge/Adjust%20Loan%20Period-yellow)
+  If no suitable amount is found for the given period, the system attempts to adjust the loan period to find a valid solution.
+  
 ---
 
 ## Features
