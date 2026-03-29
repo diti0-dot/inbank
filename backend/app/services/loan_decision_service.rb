@@ -33,12 +33,11 @@ class LoanDecisionService
     return { decision: false, amount: 0, period: @loan_period } if reject_if_debt
 
     modifier = credit_modifier
-    return { error: "invalid personal code" } if modifier.nil?
 
     amount = @loan_amount
     period = @loan_period
     score = calculate_score(amount, period)
-
+    # If approved then try offering more 
     if score >= 1
       while amount + 100 <= 10000 && calculate_score(amount + 100, period) >= 1
         amount += 100

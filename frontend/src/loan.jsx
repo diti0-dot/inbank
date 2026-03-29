@@ -15,7 +15,6 @@ export default function LoanForm() {
     "49002010976",
     "49002010987", 
     "49002010998", 
-    "00000000000"  // invalid
   ];
 
   const amounts = Array.from({ length: 81 }, (_, i) => 2000 + i * 100);
