@@ -70,7 +70,7 @@ Response:
 }
 ```
 
-#Improvement
+## Improvement
 What is one thing you would improve about the take home assignment and how would you improve it?
 - The scoring system could be improved by including more realistic factors such as income or credit history instead of fixed modifiers.
 
